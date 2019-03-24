@@ -1,99 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?=$metadescription;?>">
-    <meta name="keywords" content="<?=$keywords;?>">
-    <!--<link rel="canonical" href="<?=current_url();?>">-->
-    <title><?=$title;?> </title>
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/OwlCarousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/animate.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/theme.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/responsive.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/aos/aos.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/style.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/animate.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link rel="shortcut icon" href="<?=base_url()?>assets/images/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="<?=base_url()?>assets/images/favicon/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="<?=base_url()?>assets/images/favicon/apple-touch-icon-180x180.png" />
-    
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<meta name="yandex-verification" content="66f7b376f5725be9" />
-	<script type="application/ld+json">
-	{
-	 "@context": "http://schema.org",
-	 "@type": "Organization",
-	 "name": "Mates Group",
-	 "alternateName": "Best recruitment agencies, Labour Hire in Australia, Mates Group",
-	 "url": "https://www.matesgroup.com.au",
-	 "logo": "https://ibb.co/LZ8x1sQ",
-	 "contactPoint": {
-	 "@type": "ContactPoint",
-	 "telephone": "+61 02 87333549",
-	 "contactType": "customer service",
-	 "areaServed": "AU",
-	 "availableLanguage": "English"
-	 },
-	 "sameAs": [
-	 "https://www.facebook.com/matesgroup.aus",
-	 "https://twitter.com/matesgroupau",
-	 "https://www.instagram.com/matesgroup.au/",
-	 "https://www.linkedin.com/company/mates-group",
-	 "https://www.pinterest.com.au/matesgroup/"
-	 ]
-	}
-	</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132889509-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-132889509-1');
-</script>
-<meta name="google-site-verification" content="m7dGfGkrrwg1PWhXDcD5qeeHrj_uQWIXnQnCU61SWFc" />
+    <meta charset="UTF-8">
+    <title>MatesGlobal</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+    <link rel="stylesheet" href="<?=base_url()?>assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
 </head>
-
 <body>
-    <?php 
-    if($this->session->userdata('cookies') || $this->input->cookie('ci_session')){ }else{ ?>
-    <div id="noti">
-        <div class="container">
-            <div class="col-md-9">
-                <p>We are using cookies to provide you the best experience on our website. By accepting cookies, you agree that we may store and access cookies and similar technologies on your device. <a href="#">View Policy</a>
-               </p>
-            </div>
-            <div class="col-md-3">
-                <button onclick="acceptsCookies();" class="btn btn-info">Accepts</button>
-                <button onclick="declineCookies();" class="btn btn-default">Decline</button>
-            </div>
 
-        </div>
+<div class="header-bar">
+    <div class="container">
+          <div class="pull-left">
+              <a href="mailto:info@matesglobal.com" style="color: #fff;line-height: 35px"><i class="fas fa-envelope"></i> info@matesglobal.com</a> &nbsp;
+              <a href="tel:+61468429964" style="color: #fff;line-height: 35px"><i class="fas fa-phone-square"></i> +61 468 429 964</a> &nbsp;
+              <a href="skype:matesglobal" style="color: #fff;line-height: 35px"><i class="fab fa-skype"></i> matesglobal</a>
+          </div>
+          <div class="pull-right" >
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-facebook-f"></i></a> </a>
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-twitter"></i></a> </a>
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-google-plus-g"></i></a> </a>
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-linkedin-in"></i></a> </a>
+          </div>
     </div>
-    <?php } ?>
-    <div class="wrapper">
-        <!-- Start Header -->
+</div>
+<div class="nav-wrapper">
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="<?=base_url()?>"><img src="<?=base_url()?>assets/images/matesglobal_logo.png" alt=""></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <li><a href="<?=base_url()?>">Home</a></li>
+        <li><a href="<?=base_url()?>about">About us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Employers <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>our_specialisations">Our specialisations</a></li>
+            <li><a href="<?=base_url()?>submit_job_vacancy">Submit job vacancy</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>construction_skilled_workers">Construction skilled workers</a></li>
+            <li><a href="<?=base_url()?>civil_skilled_workers">Civil/Infrastructure skilled workers</a></li>
+            <li><a href="<?=base_url()?>building_skilled_workers">Ship and Submarine building skilled workers</a></li>
+            <li><a href="<?=base_url()?>powerplant_skilled_workers">Powerplant Skilled Workers</a></li>
+            <li><a href="<?=base_url()?>mining_skilled_workers">Mining Skilled Workers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Global Workers <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>candidate_search">Candidate Search </a></li>
+            <li><a href="<?=base_url()?>corporate_migration">Corporate Migration </a></li>
+
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Global Partnership <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>global_partnership_opportunities">Global partnership opportunities.</a></li>
+            <li><a href="<?=base_url()?>global_offices">Global Offices</a></li>
+            <li><a href="<?=base_url()?>local_offices">Local Offices </a></li>
+
+          </ul>
+        </li>
+<!--
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>our_approach">Our Approach</a></li>
+            <li><a href="<?=base_url()?>vision_and_values">Our vision & values</a></li>
+            <li><a href="<?=base_url()?>our_commitment">Our commitment</a></li>
+            <li><a href="<?=base_url()?>our_team">Our Team</a></li>
+          </ul>
+        </li>
+-->
         
+<!--
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Employers <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>our_approach_clients">Our Approach</a></li>
+            <li><a href="<?=base_url()?>our_specialisations">Our specialisations</a></li>
+            <li><a href="<?=base_url()?>promote_your_business">Promote your business</a></li>
+            <li><a href="<?=base_url()?>submit_job_vacancy">Submit job vacancy</a></li>
+          </ul>
+        </li>
         
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Candidates <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>our_approach_candidates">Our Approach</a></li>
+            <li><a href="<?=base_url()?>tips_and_advise">Tips & Advice</a></li>
+            <li><a href="<?=base_url()?>frequently_asked_questions">Frequently asked questions</a></li>
+            <li><a href="<?=base_url()?>submit_resume">Submit resume</a></li>
+            <li><a href="<?=base_url()?>job_search_advisor">Job Search Advisor</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mates Global  <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>global_candidate_search">Global Candidate Search</a></li>
+            <li><a href="<?=base_url()?>global_immigration_services">Global immigration Service</a></li>
+            <li><a href="<?=base_url()?>global_partnership_opportunities">Global Partnership opportunities</a></li>
+            <li><a href="<?=base_url()?>global_offices">Global Offices</a></li>
+   
+          </ul>
+        </li>
+-->
+        
+
+        
+        <li><a href="<?=base_url()?>contact">Contact us</a></li>
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+
+
