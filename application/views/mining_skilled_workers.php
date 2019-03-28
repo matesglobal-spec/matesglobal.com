@@ -1,16 +1,15 @@
-
-<div class="banner">
-    <div class="head-text">
-        <h2 style="color:#FF9800">Powerplant Skilled Workers</h2>
+<div class="page-banner-mining">
+    <div class="banner-box">
+        <h4>Mining Skilled Workers</h4>
+        <p>Keeping industry moving with the supply of specialist trades and skilled workers. Click for services we can offer you.</p>
     </div>
-    <div class="shade"></div>
 </div>
 
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:20px">
                    <h2>Mining Skilled Workers</h2>
                    <ul class="circle-list">
@@ -28,7 +27,27 @@
                    </ul>
                    <br>
                    <h4 class="subtitle">Submit Your Job</h4>
+                   <p>Please fill in the following details below to submit your mining skilled worker requirements. </p>
                    <form>
+                         
+                         <div class="form-group">
+                              <label>Job Categories</label>
+                               <select class="form-control" name="job_categories">
+                                      <option>Categories</option>
+                                      <option value="Underground mining operators">Underground mining operators</option>
+                                      <option value="Mining electricians">Mining electricians</option>
+                                      <option value="Mining Fitters">Mining Fitters</option>
+                                      <option value="Mining operators">Mining operators</option>
+                                      <option value="Drillers offsider">Drillers offsider</option>
+                                      <option value="Mining truck operators">Mining truck operators</option>
+                                      <option value="Dozer operator">Dozer operator</option>
+                                      <option value="Mobile plant operator">Mobile plant operator</option>
+                                      <option value="Geotechnical engineer">Geotechnical engineer</option>
+                                      <option value="Mine Worker">Mine Worker</option>
+                                      <option value="Supervisors">Supervisors</option>
+                             
+                              </select>
+                          </div>
                           <div class="form-group">
                                  <label>Company name:*:</label>
                                 <input type="text" name="company_name" class="form-control"  placeholder="Company name">

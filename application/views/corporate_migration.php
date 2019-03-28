@@ -1,7 +1,7 @@
 
 <div class="banner">
     <div class="head-text">
-        <h2 style="color:#FF9800">Corporate Migration</h2>
+        <h2 class="l-blue">Corporate Migration</h2>
     </div>
     <div class="shade"></div>
 </div>
@@ -9,8 +9,8 @@
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:20px">
                    <h2>Corporate Migration</h2>
                    <p>

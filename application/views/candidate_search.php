@@ -1,7 +1,7 @@
 
 <div class="banner">
     <div class="head-text">
-        <h2 style="color:#FF9800">Candidate Search </h2>
+        <h2 class="l-blue">Candidate Search </h2>
     </div>
     <div class="shade"></div>
 </div>
@@ -9,12 +9,12 @@
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:20px">
                    <h2>Candidate Search</h2>
                    <p>
-                       Global Connect is a unique feature offering its business alliance globally particularly to those in India, Pakistan, Bangladesh, Sri Lankan, South Africa, Philippines, the UAE, Thailand, China, Canada, Russia, UK and USA employers and employees looking for job and business opportunities in Australia. We have a team of experienced recruitment personnel and MARA agents who will assist you in getting the right candidate and take the responsibility of the logistics in bringing the candidate to Australia with the help of various Immigration services and solutions we offer.
+                       Mates Global is a unique feature offering its business alliance globally particularly to those in India, Pakistan, Bangladesh, Sri Lankan, South Africa, Philippines, the UAE, Thailand, China, Canada, Russia, UK and USA employers and employees looking for job and business opportunities in Australia and new zeland. We have a team of experienced recruitment personnel and MARA agents who will assist you in getting the right candidate and take the responsibility of the logistics in bringing the candidate to Australia with the help of various Immigration services and solutions we offer.
 
                    </p>
                    

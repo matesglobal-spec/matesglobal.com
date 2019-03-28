@@ -1,17 +1,15 @@
-
-<div class="banner">
-    <div class="head-text">
-        <h2 style="color:#FF9800">Civil/Infrastructure skilled workers
-</h2>
+<div class="page-banner-civil">
+    <div class="banner-box">
+        <h4>Civil/Infrastructure skilled workers</h4>
+        <p>Keeping industry moving with the supply of specialist trades and skilled workers. Click for services we can offer you.</p>
     </div>
-    <div class="shade"></div>
 </div>
 
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:30px">
                   <h2>Civil/Infrastructure skilled workers</h2>
     
@@ -32,7 +30,29 @@
                   </ul>
                   <br>
                    <h4 class="subtitle">Submit Your Job</h4>
+                   <p>Please fill in the following details below to submit your civil/infrastructure skilled worker requirements. </p>
                    <form>
+                         
+                         <div class="form-group">
+                              <label>Job Categories</label>
+                               <select class="form-control" name="job_categories">
+                                      <option>Categories</option>
+                                      <option value="Surveyor">Surveyor</option>
+                                      <option value="Chemical engineer">Chemical engineer</option>
+                                      <option value="Materials engineer">Materials engineer</option>
+                                      <option value="Civil engineer">Civil engineer</option>
+                                      <option value="Quantity surveyor">Quantity surveyor</option>
+                                      <option value="Structural engineer">Structural engineer</option>
+                                      <option value="Transport engineer">Transport engineer</option>
+                                      <option value="Electrical engineer">Electrical engineer</option>
+                                      <option value="Electronics engineer">Electronics engineer</option>
+                                      <option value="Industrial engineer">Industrial engineer</option>
+                                      <option value="Mechanical engineer">Mechanical engineer</option>
+                                      <option value="Draftsperson">Draftsperson</option>
+                                      <option value="Draftsperson">Draftsperson</option>             
+                              </select>
+                          </div>
+                         
                           <div class="form-group">
                                  <label>Company name:*:</label>
                                 <input type="text" name="company_name" class="form-control"  placeholder="Company name">

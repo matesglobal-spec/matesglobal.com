@@ -9,8 +9,8 @@
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:30px">
              
         
@@ -23,7 +23,7 @@
                  </h3>
                  <div class="line"></div>
               
-              <form method="post" action="" enctype="multipart/form-data" >
+              <form method="post" action="<?=base_url()?>home/" enctype="multipart/form-data" >
                   <div class="form-group">
                         <label>Your Name*:</label>
                         <input type="text" name="name" class="form-control"  placeholder="Your name">

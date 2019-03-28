@@ -12,7 +12,7 @@
 
 <div class="header-bar">
     <div class="container">
-          <div class="pull-left">
+          <div class="pull-left header-top-social">
               <a href="mailto:info@matesglobal.com" style="color: #fff;line-height: 35px"><i class="fas fa-envelope"></i> info@matesglobal.com</a> &nbsp;
               <a href="tel:+61468429964" style="color: #fff;line-height: 35px"><i class="fas fa-phone-square"></i> +61 468 429 964</a> &nbsp;
               <a href="skype:matesglobal" style="color: #fff;line-height: 35px"><i class="fab fa-skype"></i> matesglobal</a>
@@ -73,12 +73,24 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Global Partnership <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?=base_url()?>global_partnership_opportunities">Global partnership opportunities.</a></li>
-            <li><a href="<?=base_url()?>global_offices">Global Offices</a></li>
-            <li><a href="<?=base_url()?>local_offices">Local Offices </a></li>
+            <li><a href="<?=base_url()?>global_partnership_opportunities">Global partnership opportunities</a></li>
+            <!-- <li><a href="<?=base_url()?>global_offices">Global Offices</a></li>
+            <li><a href="<?=base_url()?>local_offices">Local Offices </a></li> -->
 
           </ul>
         </li>
+         <li><a href="<?=base_url()?>contact">Contact us</a></li>
+<!--
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?=base_url()?>global_offices">Global Offices</a></li>
+            <li><a href="<?=base_url()?>local_offices">Local Offices </a></li>
+            <li><a href="<?=base_url()?>contact">Contact us</a></li>
+          </ul>
+        </li>
+-->
+       <!--  <li><a href="<?=base_url()?>contact">Contact us</a></li> -->
 <!--
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us <span class="caret"></span></a>
@@ -125,9 +137,8 @@
         </li>
 -->
         
-
         
-        <li><a href="<?=base_url()?>contact">Contact us</a></li>
+        
       </ul>
       
       

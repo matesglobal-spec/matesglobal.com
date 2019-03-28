@@ -1,26 +1,23 @@
-
-<div class="banner">
-    <div class="head-text">
-        <h2 style="color:#FF9800">Construction Skilled Workers</h2>
+<div class="page-banner-construction">
+    <div class="banner-box">
+        <h4>Construction Skilled Workers</h4>
+        <p>Keeping industry moving with the supply of specialist trades and skilled workers. Click for services we can offer you.</p>
     </div>
-    <div class="shade"></div>
 </div>
-
-
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:30px">
                      <h2>Construction skilled workers</h2>
                   <ul class="circle-list">
                       <li>Construction project manager</li>
-                      <li> Landscape architect</li>
+                      <li>Landscape architect</li>
                       <li>Electrical engineer</li>
-                      <li> Draft person</li>
+                      <li>Draft person</li>
                       <li>Electrician (general)</li>
                       <li>Electrician (special class)</li>
-                      <li> Welder (first class)</li>
+                      <li>Welder (first class)</li>
                       <li>Fitter (General)</li>
                       <li>Carpenter and Joiner</li>
                       <li>Painting trades workers</li>
@@ -31,7 +28,27 @@
     
                    <br>
                    <h4 class="subtitle">Submit Your Job</h4>
+                   <p>Please fill in the following details below to submit your construction skilled worker requirements. </p>
+                   <br>
                    <form>
+                         <div class="form-group">
+                              <label>Job Categories</label>
+                               <select class="form-control" name="job_categories">
+                                      <option>Categories</option>
+                                      <option value="Construction project manager">Construction project manager</option>
+                                      <option value="Landscape architect">Landscape architect</option>
+                                      <option value="Electrical engineer">Electrical engineer</option>
+                                      <option value="Draft person">Draft person</option>
+                                      <option value="Electrician (general)">Electrician (general)</option>
+                                      <option value="Electrician (special class)">Electrician (special class)</option>
+                                      <option value="Welder (first class)">Welder (first class)</option>
+                                      <option value="Carpenter and Joiner">Carpenter and Joiner</option>
+                                      <option value="Painting trades workers">Painting trades workers</option>
+                                      <option value="Fibrous plasterer">Fibrous plasterer</option>
+                                      <option value="Plumber (general)">Plumber (general)</option>
+                                      
+                              </select>
+                          </div>
                           <div class="form-group">
                                  <label>Company name:*:</label>
                                 <input type="text" name="company_name" class="form-control"  placeholder="Company name">

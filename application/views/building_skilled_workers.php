@@ -1,21 +1,18 @@
-
-<div class="banner">
-    <div class="head-text">
-        <h2 style="color:#FF9800">Ship and Submarine building skilled workers
-</h2>
+<div class="page-banner-building">
+    <div class="banner-box">
+        <h4>Ship and Submarine building skilled workers</h4>
+        <p>Keeping industry moving with the supply of specialist trades and skilled workers. Click for services we can offer you.</p>
     </div>
-    <div class="shade"></div>
 </div>
-
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="col-md-12">
                 <div class="area" style="padding:20px">
                    <h2>Ship and Submarine building skilled workers</h2>
                    <ul class="circle-list">
-                       <li> Ship's engineer</li>
+                       <li>Ship's engineer</li>
                        <li>Architect</li>
                        <li>Electrical lines worker</li>
                        <li>Technical cable jointer</li>
@@ -28,7 +25,25 @@
                    </ul>
                     <br>
                      <h4 class="subtitle">Submit Your Job</h4>
+                     <p>Please fill in the following details below to submit your ship and submarine building skilled worker requirements. </p>
                    <form>
+                         
+                         <div class="form-group">
+                              <label>Job Categories</label>
+                               <select class="form-control" name="job_categories">
+                                      <option>Categories</option>
+                                      <option value="Ship's engineer">Ship's engineer</option>
+                                      <option value="Architect">Architect</option>
+                                      <option value="Electrical lines worker">Electrical lines worker</option>
+                                      <option value="Technical cable jointer">Technical cable jointer</option>
+                                      <option value="Electronic equipment trades worker">Electronic equipment trades worker</option>
+                                      <option value="Electronic instrument trades worker (special class)">Electronic instrument trades worker (special class)</option>
+                                      <option value="Cabinetmaker">Cabinetmaker</option>
+                                      <option value="Boat Builder and Repairer">Boat Builder and Repairer</option>
+                                      <option value="Shipwright">Shipwright</option>
+                                      
+                              </select>
+                          </div>
                           <div class="form-group">
                                  <label>Company name:*:</label>
                                 <input type="text" name="company_name" class="form-control"  placeholder="Company name">

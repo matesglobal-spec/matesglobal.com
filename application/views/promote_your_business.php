@@ -8,8 +8,8 @@
 
 <div class="container">
     <div class="row">
-        <?php $this->load->view("side_menu");?>
-        <div class="col-md-8">
+<!--        <?php $this->load->view("side_menu");?>-->
+        <div class="">
             <div class="area" style="padding:20px">
                        <div class="">
                            

@@ -1,16 +1,15 @@
-
-<div class="banner">
-    <div class="head-text">
-        <h2 style="color:#FF9800">Powerplant Skilled Workers</h2>
+<div class="page-banner-powerplant">
+    <div class="banner-box">
+        <h4>Powerplant Skilled Workers</h4>
+        <p>Keeping industry moving with the supply of specialist trades and skilled workers. Click for services we can offer you.</p>
     </div>
-    <div class="shade"></div>
 </div>
 
 
 <div class="container">
         <div class="row">
-            <?php $this->load->view("side_menu");?>
-            <div class="col-md-8">
+<!--            <?php $this->load->view("side_menu");?>-->
+            <div class="">
                 <div class="area" style="padding:20px">
                    <h2>Powerplant Skilled Workers</h2>
                    <ul class="circle-list">
@@ -26,7 +25,27 @@
                    </ul>
                    <br>
                    <h4 class="subtitle">Submit Your Job</h4>
+                   <p>Please fill in the following details below to submit your powerplant skilled worker requirements. </p>
                    <form>
+                         
+                         <div class="form-group">
+                              <label>Job Categories</label>
+                               <select class="form-control" name="job_categories">
+                                      <option>Categories</option>
+                                      <option value="Powerplant operator">Powerplant operator</option>
+                                      <option value="Powerplant generation controller">Powerplant generation controller</option>
+                                      <option value="Outage Manager">SurOutage Managerveyor</option>
+                                      <option value="Power Systems Engineer">Power Systems Engineer</option>
+                                      <option value="Technical officer">Technical officer</option>
+                                      <option value="Electrical supervisor">Electrical supervisor</option>
+                                      <option value="Mechanical fitter">Mechanical fitter</option>
+                                      <option value="Mechanical fitter">Mechanical fitter</option>
+                                      <option value="Heavy plant mechanic">Heavy plant mechanic</option>
+                                      <option value="Instrument and control engineer">Instrument and control engineer</option>
+                                         
+                              </select>
+                          </div>
+                         
                           <div class="form-group">
                                  <label>Company name:*:</label>
                                 <input type="text" name="company_name" class="form-control"  placeholder="Company name">
