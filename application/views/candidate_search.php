@@ -1,9 +1,6 @@
 
-<div class="banner">
-    <div class="head-text">
-        <h2 class="l-blue">Candidate Search </h2>
-    </div>
-    <div class="shade"></div>
+<div class="banner-csearch">
+   
 </div>
 
 

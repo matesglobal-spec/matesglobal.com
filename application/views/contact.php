@@ -8,13 +8,87 @@
            </center> 
        </div>
 </div> -->
-
+<div class="banner-contact"></div>
 <div class="container">
+  <br>
+  <br>
+  <br>
    <div class="row">
+    <div class="col-md-8">
+           <div class="area">
+               <h3>Get in Touch</h3>
+          
+           <div class="line"></div>
+           
+           <div class="form-area">
+               <!-- <p>
+                   Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+               </p> -->
+               
+             <form method="post" action="<?=base_url();?>home/contact/sendmessage">
+                   <div class="form-group col-sm-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name">
+                   </div>
+                      <div class="form-group col-sm-6">
+                         <input type="text" name="email" class="form-control" placeholder="Email">
+                   </div>
+                   
+                   <div class="form-group col-sm-6">
+                        <input type="text" name="phone" class="form-control" placeholder="Your Name">
+                   </div>
+                      <div class="form-group col-sm-6">
+                         <input type="text" name="subject" class="form-control" placeholder="Subject">
+                   </div>
+                   <div class="form-group col-sm-12">
+                       <textarea class="form-control" name="message" placeholder="Message" rows="8"></textarea>
+                   </div>
+                   <input type="submit" value="Send" class="btn btn-primary btn-lg mates-btn pull-right" style="margin-right:15px;">
+               </form>
+              
+           </div>
+       </div> 
+       <br>
+       <br>
+    </div>
+      <div class="col-md-4">
+           <div class="area">
+               <h3>Follow Us On Social Media</h3>
+               <div class="line"></div>
+               
+               <div class="social-box">
+                   <ul>
+                       <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                       <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                       <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
+                       <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+                       <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                       <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+                   </ul>
+               </div>
+               
+               <div class="address-area">
+                   <h3>Contact Details</h3>
+                   <div class="line"></div>
+                   <div class="footer-contact">
+                      <p>
+                      Level 1 Suite 11 35-39<br>
+                      Auburm Road Auburn<br>
+                      Sydney, New South Wales<br> 
+                      Zip: 2144<br>
+                      Tel: 02 87333549<br>
+                      Fax: 02 94236947<br>
+                      Email: info@matesglobal.com
+                      </p>
+                  </div>
+               </div>
+           </div>
+       </div>
+     </div>
+     <div class="row">
       <div class="area" style="padding:30px">
                     
                  <center>
-                     <h4 class="subtitle">Local Offices</h4>
+                     <h4 class="subtitle">Australia Offices</h4>
                      <br>
                  </center>
 <!--
@@ -111,75 +185,120 @@
                     </div>
                 </div>
                 <br>
-                <br>
-       <div class="col-md-8">
-           <div class="area">
-               <h3>Get in Touch</h3>
-          
-           <div class="line"></div>
-           
-           <div class="form-area">
-               <!-- <p>
-                   Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-               </p> -->
-               
-             <form method="post" action="<?=base_url();?>home/contact/sendmessage">
-                   <div class="form-group col-sm-6">
-                        <input type="text" name="name" class="form-control" placeholder="Your Name">
+       
+   </div>
+   <div class="row">
+      <div class="area" style="padding:30px">
+           <center>
+               <h4 class="subtitle">Regional office</h4>
+               <br>
+           </center>
+           <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>Goulburn NSW</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
                    </div>
-                      <div class="form-group col-sm-6">
-                         <input type="text" name="email" class="form-control" placeholder="Email">
-                   </div>
-                   
-                   <div class="form-group col-sm-6">
-                        <input type="text" name="phone" class="form-control" placeholder="Your Name">
-                   </div>
-                      <div class="form-group col-sm-6">
-                         <input type="text" name="subject" class="form-control" placeholder="Subject">
-                   </div>
-                   <div class="form-group col-sm-12">
-                       <textarea class="form-control" name="message" placeholder="Message" rows="8"></textarea>
-                   </div>
-                   <input type="submit" value="Send" class="btn btn-primary btn-lg mates-btn pull-right" style="margin-right:15px;">
-               </form>
-              
-           </div>
-       </div> 
-       <br>
-       <br>
-    </div>
-      <div class="col-md-4">
-           <div class="area">
-               <h3>Follow Us On Social Media</h3>
-               <div class="line"></div>
-               
-               <div class="social-box">
-                   <ul>
-                       <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                       <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-                       <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
-                       <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
-                       <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                       <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
-                   </ul>
                </div>
-               
-               <div class="address-area">
-                   <h3>Contact Details</h3>
-                   <div class="line"></div>
-                   <div class="footer-contact">
-                      <p>
-                      Level 1 Suite 11 35-39<br>
-                      Auburm Road Auburn<br>
-                      Sydney, New South Wales<br> 
-                      Zip: 2144<br>
-                      Tel: 02 87333549<br>
-                      Fax: 02 94236947<br>
-                      Email: info@matesglobal.com
-                      </p>
-                  </div>
+            </div>
+        </div>
+      </div>
+      <br>
+   </div>
+  <div class="row">
+      <div class="area" style="padding:30px">
+           <center>
+               <h4 class="subtitle">Global offices</h4>
+               <br>
+           </center>
+           <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>Singapore</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
                </div>
-           </div>
-       </div>
+               <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>New Zealand</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>United states</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>Canada</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>United Kingdom</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>Hong Kong</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="contact-add">
+                       <h4>Bangladesh</h4>
+                       <p>
+                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
+                            Landline: (02) 8216 0934<br>
+                            FAX: (02) 9475 0522<br>
+                            Email: info@winfred.com.au<br>
+                       </p>
+                   </div>
+               </div>
+            </div>
+        </div>
+      </div>
+      <br>
    </div>
 </div>

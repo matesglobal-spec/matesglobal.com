@@ -1,6 +1,8 @@
 <div class="site-slogan">
     <div class="container">
-        <h3>Specialising in international recruitment for Australian, New Zealand and Canada</h3>
+       <center>
+            <h3>Specialising in global recruitment </h3>
+       </center>
     </div>
 </div>
   

@@ -13,15 +13,15 @@
 <div class="header-bar">
     <div class="container">
           <div class="pull-left header-top-social">
-              <a href="mailto:info@matesglobal.com" style="color: #fff;line-height: 35px"><i class="fas fa-envelope"></i> info@matesglobal.com</a> &nbsp;
-              <a href="tel:+61468429964" style="color: #fff;line-height: 35px"><i class="fas fa-phone-square"></i> +61 468 429 964</a> &nbsp;
-              <a href="skype:matesglobal" style="color: #fff;line-height: 35px"><i class="fab fa-skype"></i> matesglobal</a>
+              <a href="mailto:info@matesglobal.com" style="color: #fff;line-height: 35px;font-size:22px"><i class="fas fa-envelope"></i> info@matesglobal.com</a> &nbsp;
+              <a href="tel:+61468429964" style="color: #fff;line-height: 35px;font-size:22px"><i class="fas fa-phone-square"></i> +61 468 429 964</a> &nbsp;
+              <a href="skype:matesglobal" style="color: #fff;line-height: 35px;font-size:22px"><i class="fab fa-skype"></i> matesglobal</a>
           </div>
           <div class="pull-right" >
-              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-facebook-f"></i></a> </a>
-              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-twitter"></i></a> </a>
-              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-google-plus-g"></i></a> </a>
-              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px"><i class="fab fa-linkedin-in"></i></a> </a>
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px;font-size:22px"><i class="fab fa-facebook-f"></i></a> </a>
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px;font-size:22px"><i class="fab fa-twitter"></i></a> </a>
+        
+              <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px;font-size:22px"><i class="fab fa-linkedin-in"></i></a> </a>
           </div>
     </div>
 </div>
@@ -52,7 +52,7 @@
             <li><a href="<?=base_url()?>submit_job_vacancy">Submit job vacancy</a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown drop">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Services <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="<?=base_url()?>construction_skilled_workers">Construction skilled workers</a></li>
@@ -62,6 +62,8 @@
             <li><a href="<?=base_url()?>mining_skilled_workers">Mining Skilled Workers</a></li>
           </ul>
         </li>
+        
+        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Global Workers <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -70,15 +72,12 @@
 
           </ul>
         </li>
-        <li class="dropdown">
+        <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Global Partnership <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="<?=base_url()?>global_partnership_opportunities">Global partnership opportunities</a></li>
-            <!-- <li><a href="<?=base_url()?>global_offices">Global Offices</a></li>
-            <li><a href="<?=base_url()?>local_offices">Local Offices </a></li> -->
-
           </ul>
-        </li>
+        </li> -->
          <li><a href="<?=base_url()?>contact">Contact us</a></li>
 <!--
         <li class="dropdown">
