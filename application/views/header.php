@@ -20,7 +20,6 @@
           <div class="pull-right" >
               <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px;font-size:22px"><i class="fab fa-facebook-f"></i></a> </a>
               <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px;font-size:22px"><i class="fab fa-twitter"></i></a> </a>
-        
               <a href="" style="color: #fff;line-height: 35px"><a href="" style="color: #fff;margin-right:8px;font-size:22px"><i class="fab fa-linkedin-in"></i></a> </a>
           </div>
     </div>
