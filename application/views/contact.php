@@ -71,10 +71,9 @@
                    <div class="line"></div>
                    <div class="footer-contact">
                       <p>
-                      Level 1 Suite 11 35-39<br>
-                      Auburm Road Auburn<br>
-                      Sydney, New South Wales<br> 
-                      Zip: 2144<br>
+                      Level 1 Suite 11<br>
+                      35-39 Auburm Road Auburn<br>
+                      New South Wales, Sydney 2144<br> 
                       Tel: 02 87333549<br>
                       Fax: 02 94236947<br>
                       Email: info@matesglobal.com
@@ -129,7 +128,7 @@
                                         Level 34, AMP Tower<br>50 Bridge Street <br>Sydney <br>New South Wales <br>2000 <br>Australia<br>
                                         Landline: (02) 8216 0934<br>
                                         FAX: (02) 9475 0522<br>
-                                        Email: info@winfred.com.au<br>
+                                        Email: info@matesglobal.com<br>
                                    </p>
                                </div>
                            </div>
@@ -138,7 +137,11 @@
                                <div class="contact-add">
                                    <h4>ADELAIDE OFFICE</h4>
                                    <p>
-                                       Level 5, City Central, Tower 2 <br>121 King William Street <br>Adelaide <br>South Australia  <br>5000 Australia<br>Landline: (02) 8733 3549<br>Email: info@winfred.com.au
+                                       Level 5, City Central, Tower 2 <br>
+                                       121 King William Street <br>
+                                       Adelaide <br>South Australia  <br>
+                                       5000 Australia<br>
+                                       Landline: (02) 8733 3549<br>Email: info@winfred.com.au
                                    </p>
                                </div>
                            </div>
@@ -156,7 +159,10 @@
                                <div class="contact-add">
                                    <h4>PERTH, Forrest Centre</h4>
                                    <p>
-                                     Level 29  <br>221 St Georges Terrace  <br>Perth   <br>Western Australia    <br>6000  <br>Australia<br>Landline: (02) 8733 3549<br>Email: info@winfred.com.au
+                                     Level 29  <br>221 St Georges Terrace  <br>Perth   
+                                     <br>Western Australia    <br>6000  
+                                     <br>Australia<br>Landline: (02) 8733 3549
+                                     <br>Email: info@winfred.com.au
                                    </p>
                                </div>
                            </div>
@@ -175,7 +181,9 @@
                                <div class="contact-add">
                                    <h4>AUBURN OFFICE</h4>
                                    <p>
-                                      L35/39 Auburn Road  <br>Auburn  <br>Sydney     <br>NSW 2144    <br>Australia<br>Landline: (02) 8733 3549<br>FAX: (02) 9423 6947<br>
+                                   Level 1 siute 11 <br>
+                                   35/39 Auburn Road, Auburn    <br>NSW Sydney 2144    <br>Australia<br>Landline: (02) 8733 3549<br>
+                                   FAX: (02) 9423 6947<br>
                                       Email: info@winfred.com.au
                                    </p>
                                </div>
@@ -277,17 +285,6 @@
                <div class="col-md-4">
                    <div class="contact-add">
                        <h4>Hong Kong</h4>
-                       <p>
-                            Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
-                            Landline: (02) 8216 0934<br>
-                            FAX: (02) 9475 0522<br>
-                            Email: info@winfred.com.au<br>
-                       </p>
-                   </div>
-               </div>
-               <div class="col-md-4">
-                   <div class="contact-add">
-                       <h4>Bangladesh</h4>
                        <p>
                             Suite 1F 213-215 <br> Auburn street, <br> Goulburn NSW  <br>2580 <br>Australia<br>
                             Landline: (02) 8216 0934<br>
