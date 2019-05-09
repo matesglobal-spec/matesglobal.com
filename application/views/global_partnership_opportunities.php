@@ -66,7 +66,7 @@
                     <!--Grid column-->
                     <div class="col-md-12">
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your Message"></textarea>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your Message" cols="10"></textarea>
                         </div>
                     </div>
                 </div>

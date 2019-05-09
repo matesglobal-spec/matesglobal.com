@@ -102,6 +102,9 @@
     sweetAlert("Success!!",
     "<?php echo $this->session->flashdata('success');?>",
     "success");
+    
+	$(".drop").hover(function(){
+		$(this).addClass("open");
 </script>
 <?php } ?>
 </body>

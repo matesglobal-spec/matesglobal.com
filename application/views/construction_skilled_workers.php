@@ -1,7 +1,7 @@
 <div class="page-banner-construction">
     <div class="banner-box">
         <h4>Construction Skilled Workers</h4>
-        <p>Keeping industry moving with the supply of specialist trades and skilled workers. Click for services we can offer you.</p>
+        <p>Keeping industries moving with the supply of specialist trades and skilled workers. Click to find out more about the services we can offer you.</p>
     </div>
 </div>
 <div class="container">
@@ -78,8 +78,8 @@
                           </div>
 
                           <div class="form-group">
-                                 <label>No of employees*:</label>
-                                <input type="text" name="no_of_employee" class="form-control"  placeholder="No of employee">
+                                 <label>Number of employees*:</label>
+                                <input type="text" name="no_of_employee" class="form-control"  placeholder="Number of employees">
                           </div>
 
                           <div class="form-group">
@@ -91,8 +91,8 @@
                                 <input type="text" name="Commencement_date" class="form-control"  placeholder="Commencement date">
                           </div>
                           <div class="form-group">
-                                 <label>Message</label>
-                                 <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                 <label>Other requirements</label>
+                                 <textarea class="form-control" name="message" placeholder="Other requirements"></textarea>
                           </div>
                           <input type="submit" value="Submit" name="submit" class="btn btn-primary btn-lg mates-btn">
                      </form> 

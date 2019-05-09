@@ -1,11 +1,10 @@
 
-<div class="banner">
+<div class="banner-job">
     <div class="head-text">
-        <h2 class="l-blue">Submit Job Vacancy</h2>
+<!--        <h2 class="l-blue">About us</h2>-->
     </div>
-    <div class="shade"></div>
+  
 </div>
-
 
 <div class="container">
         <div class="row">
@@ -21,8 +20,8 @@
         <div class="line"></div>
                      <form>
                           <div class="form-group">
-                                 <label>Company name</label>
-                                <input type="text" name="company_name" class="form-control"  placeholder="Company name">
+                             <label>Company name</label>
+                            <input type="text" name="company_name" class="form-control"  placeholder="Company name">
                           </div>
                           <div class="form-group">
                                  <label>Your email address</label>
@@ -49,8 +48,8 @@
                           </div>
 
                           <div class="form-group">
-                                 <label>No of employees</label>
-                                <input type="text" name="no_of_employee" class="form-control"  placeholder="No of employee">
+                                 <label>Number of employees</label>
+                                <input type="text" name="no_of_employee" class="form-control"  placeholder="Number of employee">
                           </div>
 
                           <div class="form-group">
@@ -62,8 +61,8 @@
                                 <input type="text" name="commencement_date" class="form-control"  placeholder="Commencement date">
                           </div>
                           <div class="form-group">
-                                 <label>Message</label>
-                                 <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                 <label>Other Requirements</label>
+                                 <textarea class="form-control" name="message" placeholder="Other Requirements"></textarea>
                           </div>
                           <input type="submit" value="Submit" name="submit" class="btn btn-primary btn-lg mates-btn">
                      </form>    

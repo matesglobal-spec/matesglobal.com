@@ -1,11 +1,4 @@
-
-<div class="banner">
-    <div class="head-text">
-        <h2 class="l-blue">Corporate Migration</h2>
-    </div>
-    <div class="shade"></div>
-</div>
-
+<div class="banner-cmigration"></div>
 
 <div class="container">
         <div class="row">
